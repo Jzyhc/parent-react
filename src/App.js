@@ -1,23 +1,20 @@
-import logo from './logo.svg';
+/*
+ * @Author       : jincheng
+ * @Date         : 2020-12-10 16:17:15
+ * @LastEditTime : 2020-12-11 11:28:30
+ * @LastEditors  : jincheng
+ * @FilePath     : /qiankun/parent-all/src/App.js
+ */
 import './App.css';
+import Hocpage from './pages/Hocpage'
+import Zsc from './pages/Zsq'
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      app
+      <Hocpage />
+      <Zsc />
     </div>
   );
 }
