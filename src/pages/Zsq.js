@@ -1,15 +1,11 @@
 /*
  * @Author       : jincheng
  * @Date         : 2020-12-11 10:24:44
- * @LastEditTime : 2020-12-11 11:30:44
+ * @LastEditTime : 2020-12-13 13:56:05
  * @LastEditors  : jincheng
- * @FilePath     : /qiankun/parent-all/src/pages/Zsq.js
+ * @FilePath     : /parent-all/src/pages/Zsq.js
  */
 import React, { Component } from 'react'
-
-
-
-
 
 const foo = Cmp => props =>{
   return (
@@ -19,12 +15,21 @@ const foo = Cmp => props =>{
   )
 } 
 
+const foo2 = Cmp => props =>{
+  return (
+    <div>
+    eqweqw
+      <Cmp {...props} />
+    </div>
+  )
+} 
 
+@foo2
 @foo
 class Child extends Component {
   render() {
     return (
-       <div> Child</div>
+       <div> Child@</div>
     )
   }
 }
